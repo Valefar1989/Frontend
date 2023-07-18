@@ -1,0 +1,37 @@
+a:link {
+    color: brown;
+}
+
+a:visited {
+    color: gold;
+}
+
+a:hover {
+    color: silver;
+    background-color: bisque;
+}
+
+.author {
+    box-shadow: 7px 9px 30px -17px rgba(0, 0, 0, 0.7);
+    }
+
+.author:hover{
+    box-shadow: none;
+    }
+    
+.transition {
+        background-color: cadetblue;
+        max-width: 150px;
+        padding: 12px;
+        margin: auto;
+        border-radius: 15px;
+        position: relative;
+        transition: all 3s;
+    }
+
+.transition:hover {
+        -webkit-box-shadow: 14px 42px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 14px 42px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 14px 42px 5px 0px rgba(0,0,0,0.75);
+     }
+

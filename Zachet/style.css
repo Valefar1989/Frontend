@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+
+html {
+    font-family: 'Fraunces', serif;
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    display: grid;
+    max-width: 120rem;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    grid-column: 1 / span 5;
+    margin: 0 auto;
+    padding-top: 3rem;
+    background-color: #3ebfff;
+ }
+
+ .navigation-logo {
+    width: 150px;
+    height: 30px;
+    background: url('image/logo.png') center no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    transition: .3s linear;
+    margin-left: 3.7rem;
+    margin-top: 0.6rem;
+}
+
+.navigation-logo:hover {
+    opacity: .7;
+}
+
+.div-head {
+    color: #fff;
+    padding: 15px 25px;
+    margin: 0 5px;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: .3s linear;
+}
+
+.div-head:hover {
+    background-color: #fff;
+    color: #23303e;
+}
+
+.active {
+    background-color: #fff;
+    font-family: 'Fraunces', serif;
+    color: #23303e;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border-radius: 30px;
+    
+}
+ 
+.preview {
+    width: 100%;
+    height: 600px;
+    background: url('image/image-header.jpg') bottom no-repeat;
+    background-size: cover;
+    grid-column: 1 / span 5;
+    margin: 0 auto;
+    padding: 1rem;
+    @media (max-width: 930px){
+        background-size: 1200px auto;
+    
+    }
+}
+
+.weare {
+    color: white;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 3rem;
+    @media (max-width: 930px){
+        font-size: 5rem;
+    }
+}
+
+@keyframes arrow {
+    100% {
+        transform: translateY(30px);
+        opacity: .7;
+    }
+}
+
+.arrow {
+    width: 30px;
+    height: 100px;
+    background: url('image/icon-arrow-down.svg') center no-repeat;
+    background-size: contain;
+    margin: 30px auto 0;
+    animation: arrow .8s ease-in-out infinite alternate;
+    margin-top: 10rem;
+}
+
+

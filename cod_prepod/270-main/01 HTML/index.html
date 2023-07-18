@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>main doc</title>
+  </head>
+  <body>
+    <h1 id="head-1" class="head" style="color: blue">Вроде что-то похожее на заголовок</h1>
+    <a href="https://unsplash.com/" target="_blank">Ссылка на unsplash.com</a>
+    <a href="https://google.com/" target="_blank">
+      <img src="https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA" width="100" alt="google" />
+    </a>
+    <a href="second.html">Вторая страница</a>
+    <a href="HTML 2.1 - 2.3.pdf">Презентация</a>
+
+    <p id="par-1" class="par">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, doloremque!</p>
+    <img src="images/image-1.jpg" width="300" alt="Облака на темном фоне" />
+    <img src="images/image-2.jpg" width="300" alt="Дорога в горизонт" />
+    <img
+      src="https://images.unsplash.com/photo-1688019983766-216c6a06fe0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+      width="300"
+      alt="Горы, озеро"
+    />
+    <img src="https://bipbap.ru/wp-content/uploads/2017/04/000f_7290754.jpg" width="300" alt="радужный водопад" />
+
+    <table>
+      <!-- шапка -->
+      <tr>
+        <th>Имя</th>
+        <th>Фамилия</th>
+        <th>Возраст</th>
+        <th>Телефон</th>
+      </tr>
+      <!-- первый ряд -->
+      <tr>
+        <td>Иван</td>
+        <td>Иванов</td>
+        <td>22</td>
+        <td>003</td>
+      </tr>
+      <!-- второй ряд -->
+      <tr>
+        <td>Сергей</td>
+        <td>Иванов</td>
+        <td>33</td>
+        <td>002</td>
+      </tr>
+      <!-- третий ряд -->
+      <tr>
+        <td>Анна</td>
+        <td>Иванова</td>
+        <td>18</td>
+        <td>911</td>
+      </tr>
+    </table>
+
+    <ul class="list">
+      <li>Хлеб</li>
+      <li>Молоко</li>
+      <li>Мясо</li>
+      <li>Творог</li>
+      <li>Кисель</li>
+    </ul>
+
+    <ol type="A">
+      <li>Ель</li>
+      <li>Сосна</li>
+      <li>Пихта</li>
+      <li>Клен</li>
+      <li>Ясень</li>
+      <li>Дуб</li>
+    </ol>
+
+    <h2 style="color: darkorchid; background-color: lightblue">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quia animi atque est. Similique, dignissimos at fugit beatae quasi incidunt!
+    </h2>
+
+    <div class="users">
+      <!-- контейнер для пользователей -->
+      <div class="user">
+        <h2>Имя: Иван</h2>
+        <h3>Фамилия: Иванов</h3>
+        <p>Возраст: 22 года</p>
+        <p>Хобби: Гулять</p>
+      </div>
+
+      <div class="user">
+        <h2>Имя: Петр</h2>
+        <h3>Фамилия: Петров</h3>
+        <p>Возраст: 11 года</p>
+        <p>Хобби: Спать</p>
+      </div>
+
+      <div class="user">
+        <h2>Имя: Ирина</h2>
+        <h3>Фамилия: Петрова</h3>
+        <p>Возраст: 16 года</p>
+        <p>Хобби: Вязать</p>
+      </div>
+    </div>
+
+    <hr />
+    <!-- index.html ? firstName=Иван & lastName=Иванов -->
+    <!-- index.html ? firstName=     & lastName= -->
+    <form>
+      <label for="firstName">Имя:</label>
+      <input type="text" id="firstName" name="firstName" placeholder="Введите имя..." /><br />
+
+      <label for="lastName">Фамилия:</label>
+      <input type="text" id="lastName" name="lastName" placeholder="Введите фамилию" /><br />
+
+      <label for="login">Имя пользователя:</label>
+      <input type="text" id="login" placeholder="Латинские буквы и цифры" /><br />
+
+      <label>Адрес электронной почты:</label>
+      <input type="email" placeholder="example@name.ru" /><br />
+
+      <label>Пароль:</label>
+      <input type="password" size="30" placeholder="Минимум 8 произвольных символов" /><br />
+
+      <label>Аватар:</label>
+      <input type="file" /><br />
+
+      <input type="submit" value="Реристрация" />
+    </form>
+  </body>
+</html>

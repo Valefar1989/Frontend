@@ -1,0 +1,55 @@
+/* стили для заголовка h1 */
+h1 {
+    color: blueviolet;
+    background-color: aliceblue;
+    font-size: 30px;
+    font-style: italic;
+    }
+    
+    /* стили для заголовка h2 */
+    h2 {
+    color: rgb(34, 102, 40);
+    }
+    
+    /* задаем стили по идентификатору*/
+    #par-1 {
+    color: black;
+    background-color: cadetblue;
+    }
+    
+    /* задаем стили по имени класса */
+    .par {
+    color: rgb(228, 206, 10);
+    background-color: brown;
+    }
+    
+    /* стили для параграфов */
+    p {
+    color: rgb(19, 63, 20);
+    background-color: brown;
+    }
+
+.user {
+    color: aqua;
+}
+
+.user h3 {
+    background-color: blueviolet;
+}
+
+.head {
+    color: blue;
+    background-color: bisque;
+    border: 20px solid black;
+    border-radius: 10%;
+    margin: 10px 15px 5px 20px;
+    padding: 50px;
+}
+
+.author{
+    box-shadow: 7px 9px 30px -17px rgba(0, 0, 0, 0.7);
+    }
+    
+.author :hover{
+    box-shadow: 7px 9px 30px -17px rgb(255, 255, 255);
+    }
