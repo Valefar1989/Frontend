@@ -298,3 +298,13 @@ function numb2() {
     console.log(res)
 }
 
+function userName (name) {
+    if (name) {
+        alert(`Hi, ${name}`)
+    }
+    else {
+        alert(' Ты кто такой? Давай, досвидания')
+    }
+}
+
+userName('Lexus');
